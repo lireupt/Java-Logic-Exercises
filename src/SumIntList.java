@@ -4,8 +4,10 @@ public class SumIntList {
      * The function accepts INTEGER_ARRAY ar as parameter.
      */
 
-    public static int simpleArraySum(List<Integer> ar) {
+    public static int simpleArraySum() { //(List<Integer> ar)
     
+        Integer []ar = {1,2,3}; 
+
         Integer sum =0;
         for(Integer i : ar){
              sum +=i;
